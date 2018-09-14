@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="54538" started-at="2018-09-14T17:08:22Z" finished-at="2018-09-14T17:09:17Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="54538" started-at="2018-09-14T17:08:22Z" finished-at="2018-09-14T17:09:17Z">
+      <class name="gmailPack.gmailLoginTestTest">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:gmailPack.gmailLoginTestTest@60cb03c4]" name="beforeSuite" is-config="true" duration-ms="62" started-at="2018-09-14T17:08:22Z" finished-at="2018-09-14T17:08:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:gmailPack.gmailLoginTestTest@60cb03c4]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-09-14T17:08:22Z" finished-at="2018-09-14T17:08:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:gmailPack.gmailLoginTestTest@60cb03c4]" name="beforeClass" is-config="true" duration-ms="5194" started-at="2018-09-14T17:08:22Z" finished-at="2018-09-14T17:08:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:gmailPack.gmailLoginTestTest@60cb03c4]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-09-14T17:08:27Z" finished-at="2018-09-14T17:08:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="googleLogin()[pri:1, instance:gmailPack.gmailLoginTestTest@60cb03c4]" name="googleLogin" duration-ms="9097" started-at="2018-09-14T17:08:27Z" finished-at="2018-09-14T17:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:gmailPack.gmailLoginTestTest@60cb03c4]" name="afterMethod" is-config="true" duration-ms="2" started-at="2018-09-14T17:08:36Z" finished-at="2018-09-14T17:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:gmailPack.gmailLoginTestTest@60cb03c4]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-09-14T17:08:39Z" finished-at="2018-09-14T17:08:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="gmaillLgin(java.lang.String, java.lang.String)[pri:0, instance:gmailPack.gmailLoginTestTest@60cb03c4]" name="gmaillLgin" duration-ms="15930" started-at="2018-09-14T17:08:39Z" data-provider="dp" depends-on-methods="gmailPack.gmailLoginTestTest.googleLogin" finished-at="2018-09-14T17:08:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shwetha.ks7@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passw1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmaillLgin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:gmailPack.gmailLoginTestTest@60cb03c4]" name="afterMethod" is-config="true" duration-ms="2" started-at="2018-09-14T17:08:55Z" finished-at="2018-09-14T17:08:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:gmailPack.gmailLoginTestTest@60cb03c4]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-09-14T17:08:55Z" finished-at="2018-09-14T17:08:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="gmaillLgin(java.lang.String, java.lang.String)[pri:0, instance:gmailPack.gmailLoginTestTest@60cb03c4]" name="gmaillLgin" duration-ms="17623" started-at="2018-09-14T17:08:55Z" data-provider="dp" depends-on-methods="gmailPack.gmailLoginTestTest.googleLogin" finished-at="2018-09-14T17:09:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shwetha.ks7@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmaillLgin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:gmailPack.gmailLoginTestTest@60cb03c4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-09-14T17:09:13Z" finished-at="2018-09-14T17:09:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:gmailPack.gmailLoginTestTest@60cb03c4]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-09-14T17:09:13Z" finished-at="2018-09-14T17:09:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:gmailPack.gmailLoginTestTest@60cb03c4]" name="afterTest" is-config="true" duration-ms="3727" started-at="2018-09-14T17:09:13Z" finished-at="2018-09-14T17:09:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:gmailPack.gmailLoginTestTest@60cb03c4]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-09-14T17:09:17Z" finished-at="2018-09-14T17:09:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- gmailPack.gmailLoginTestTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
